@@ -1,0 +1,12 @@
+Configurar o GIT Local
+git config --global user.name luymoon
+git config --global user.email aguiarluana780@gmail.com
+
+Criar o projeto
+npx create-expo-app@latest jogo-da-velha --template blank
+
+Restaurar o projeto
+npm i
+
+Executar o projeto
+npx expo start --localhost --android
